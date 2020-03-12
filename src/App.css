@@ -1,38 +1,23 @@
-.App {
-  text-align: center;
-}
+.card{
+background-image: url('https://d2e70e9yced57e.cloudfront.net/common/product/images/creditcards/500/citi-secured-credit-card-07551524c.png');
+width:100%;
+height:400px;
+background-repeat: no-repeat;
+justify-content: center;
+margin-left: 550px;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.pos-b{
+  
+    width: 100px;
+    height: 54px;
+    margin-left:500px;
+    
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.marwen{
+  font-size:10px;
+  width:100px;
+  position: absolute;
+    left: -300px;
+    position: relative;
 }
